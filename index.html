@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>TapNGo | Smart QR</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px 16px;
+      min-height: 100vh;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #f4f4f9;
+      color: #333;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 420px;
+      padding: 32px 24px;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: 30px;
+      color: #171717;
+      letter-spacing: 1px;
+    }
+
+    p {
+      line-height: 1.8;
+      overflow-wrap: anywhere;
+    }
+
+    #message {
+      color: #666;
+    }
+
+    .loader {
+      width: 30px;
+      height: 30px;
+      margin: 20px auto 0;
+      border: 3px solid #eee;
+      border-top-color: #222;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
+
+  <script src="./links.js" defer></script>
+  <script src="./redirect.js" defer></script>
+</head>
+
+<body>
+  <main class="container">
+    <h1>TapNGo</h1>
+    <p id="message">جاري تحويلك إلى الوجهة المطلوبة...</p>
+    <div id="loader" class="loader" aria-hidden="true"></div>
+  </main>
+</body>
+</html>
