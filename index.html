@@ -3,81 +3,49 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow">
-  <title>TapNGo | Smart QR</title>
-
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 40px 16px;
-      min-height: 100vh;
-      margin: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: #f4f4f9;
-      color: #333;
-    }
-
-    .container {
-      width: 100%;
-      max-width: 420px;
-      padding: 32px 24px;
-      background: #fff;
-      border-radius: 16px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-    }
-
-    h1 {
-      margin: 0 0 12px;
-      font-size: 30px;
-      color: #171717;
-      letter-spacing: 1px;
-    }
-
-    p {
-      line-height: 1.8;
-      overflow-wrap: anywhere;
-    }
-
-    #message {
-      color: #666;
-    }
-
-    .loader {
-      width: 30px;
-      height: 30px;
-      margin: 20px auto 0;
-      border: 3px solid #eee;
-      border-top-color: #222;
-      border-radius: 50%;
-      animation: spin 0.8s linear infinite;
-    }
-
-    .hidden {
-      display: none;
-    }
-
-    @keyframes spin {
-      to { transform: rotate(360deg); }
-    }
-  </style>
-
-  <script src="./links.js" defer></script>
-  <script src="./redirect.js" defer></script>
+  <title>TapNGo</title>
 </head>
-
 <body>
-  <main class="container">
-    <h1>TapNGo</h1>
-    <p id="message">جاري تحويلك إلى الوجهة المطلوبة...</p>
-    <div id="loader" class="loader" aria-hidden="true"></div>
-  </main>
+<script>
+(async function () {
+  const id = new URLSearchParams(location.search).get("id");
+
+  if (!/^\d{3}$/.test(id || "")) {
+    document.body.textContent = "Invalid stand";
+    return;
+  }
+
+  try {
+    const script = document.createElement("script");
+    script.src = "./links.js?t=" + Date.now();
+
+    await new Promise((resolve, reject) => {
+      script.onload = resolve;
+      script.onerror = reject;
+      document.head.appendChild(script);
+    });
+
+    const url = window.TAPNGO_REDIRECTS?.[id];
+
+    if (!url) {
+      document.body.textContent = "This stand is not active.";
+      return;
+    }
+
+    const destination = new URL(url);
+
+    if (!["https:", "http:"].includes(destination.protocol)) {
+      throw new Error("Invalid URL");
+    }
+
+    location.replace(destination.href);
+  } catch {
+    document.body.textContent =
+      "Unable to open this link. Please try again.";
+  }
+})();
+</script>
 </body>
 </html>
