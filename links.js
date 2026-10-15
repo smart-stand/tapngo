@@ -1,6 +1,6 @@
 
 window.TAPNGO_REDIRECTS = {
-  "001": "https://www.tiktok.com/@tapandgo11?_r=1&_t=ZS-9AaDyc6rQoO",
+  "001": "https://search.google.com/local/writereview?placeid=ChIJkxW7JABBWBQRMditIEupikw",
   "002": "https://www.instagram.com/customer2/",
   "003": "",
   "004": "",
