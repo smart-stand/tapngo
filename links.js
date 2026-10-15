@@ -1,6 +1,6 @@
 
 window.TAPNGO_REDIRECTS = {
-  "001": "https://www.instagram.com/tapngo11?srtk=MXF4eHd4N2ZsMHhuNg%3D%3D&utm_source=qr",
+  "001": "https://www.tiktok.com/@eidooo22?_r=1&_t=ZS-9AJy60HYxNN",
   "002": "https://www.instagram.com/customer2/",
   "003": "",
   "004": "",
