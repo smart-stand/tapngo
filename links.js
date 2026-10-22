@@ -9,5 +9,5 @@ window.TAPNGO_REDIRECTS = {
   "007": "",
   "008": "https://smart-stand.github.io/mahmoud/",
   "009": "",
-  "010": ""
+  "010": "https://smart-stand.github.io/tapngo/?id="
 };
