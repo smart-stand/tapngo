@@ -7,7 +7,7 @@ window.TAPNGO_REDIRECTS = {
   "005": "",
   "006": "",
   "007": "",
-  "008": "",
+  "008": "https://smart-stand.github.io/mahmoud/",
   "009": "",
   "010": ""
 };
