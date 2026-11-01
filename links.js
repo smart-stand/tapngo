@@ -6,8 +6,8 @@ window.TAPNGO_REDIRECTS = {
   "004": "https://www.instagram.com/ahmed_eid_awad_123?xtok=a3lmbjV6MDU3aDIx&utm_source=qr",
   "005": "",
   "006": "",
-  "007": "",
+  "007": "كارت انستا عينه ",
   "008": "https://smart-stand.github.io/mahmoud/",
-  "009": "",
-  "010": "https://smart-stand.github.io/mahmoud/"
+  "009": "كارت واتس عينه ",
+  "010": ""
 };
