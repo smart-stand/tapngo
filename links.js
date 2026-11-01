@@ -10,9 +10,9 @@ window.TAPNGO_REDIRECTS = {
   "008": "كارت فيس  ",
   "009": "كارت واتس  ",
   "010": "https://smart-stand.github.io/mahmoud/"
-   "011": "https://smart-stand.github.io/mahmoud/",
-   "012": "كارت واتس  ",
-   "013": "كارت واتس  ",
+  "011": "https://smart-stand.github.io/mahmoud/",
+  "012": "كارت واتس  ",
+  "013": "كارت واتس  ",
    "014": "كارت واتس  ",
    "015": "كارت واتس  ",
    "016": "كارت واتس  ",
