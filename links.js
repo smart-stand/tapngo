@@ -22,7 +22,7 @@ window.TAPNGO_REDIRECTS = {
   "020": "",
   "021": "",
   "022": "",
-  "023": "",
+  "023": "https://ipn.eg/S/mohammedtareek252000/instapay/4GinJQ",
   "024": "",
   "025": "",
   "026": "",
