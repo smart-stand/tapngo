@@ -15,7 +15,7 @@ window.TAPNGO_REDIRECTS = {
   "013": "",
   "014": "",
   "015": "",
-  "016": "",
+  "016": "https://search.google.com/local/writereview?placeid=ChIJ2Zs01auHUhQRQTinNxAQoXc",
   "017": "",
   "018": "",
   "019": "",
