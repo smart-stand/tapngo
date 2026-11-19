@@ -30,9 +30,13 @@
     const url = window.TAPNGO_REDIRECTS?.[id];
 
     if (!url) {
-      document.body.textContent = "This stand is not active.";
-      return;
-    }
+  document.body.innerHTML =
+    '<div style="font-family:Tahoma,Arial,sans-serif;text-align:center;padding:40px 20px;line-height:2;font-size:18px">' +
+    'عميلنا العزيز، لتفعيل QR المنتج الخاص بك، برجاء إرسال الرابط الخاص بك على هذا الرقم:<br>' +
+    '<a href="https://wa.me/201127248864" style="color:#25D366;font-weight:bold;font-size:22px;direction:ltr;display:inline-block">01127248864</a>' +
+    '</div>';
+  return;
+}
 
     const destination = new URL(url);
 
