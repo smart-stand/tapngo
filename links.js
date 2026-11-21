@@ -18,7 +18,7 @@ window.TAPNGO_REDIRECTS = {
   "016": "https://search.google.com/local/writereview?placeid=ChIJ2Zs01auHUhQRQTinNxAQoXc",
   "017": "",
   "018": "",
-  "019": "",
+  "019": "https://ipn.eg/S/salem.0mara/instapay/5ZWuUq",
   "020": "",
   "021": "",
   "022": "",
