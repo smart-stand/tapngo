@@ -30,7 +30,7 @@ window.TAPNGO_REDIRECTS = {
   "028": "",
   "029": "",
   "030": "",
-  "031": "",
+  "031": "https://search.google.com/local/writereview?placeid=ChIJZc8DTJH9VxQRrGxo_GgaT0g&source=g.page.m.np._&laa=nmx-review-solicitation-promoted-recommendation-card",
   "032": "",
   "033": "https://g.page/r/CZz5iDdGR4VpEBM/review",
   "034": "",
