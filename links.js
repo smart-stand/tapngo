@@ -42,7 +42,7 @@ window.TAPNGO_REDIRECTS = {
   "040": "",
   "041": "",
   "042": "",
-  "043": "",
+  "043": "https://search.google.com/local/writereview?placeid=ChIJyZlrGsSHUhQR2ZS-R4exN3c",
   "044": "",
   "045": "",
   "046": "",
