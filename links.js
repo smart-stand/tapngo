@@ -48,7 +48,7 @@ window.TAPNGO_REDIRECTS = {
   "046": "https://search.google.com/local/writereview?placeid=ChIJB_2wwqKHUhQR_g28hAyOZkw",
   "047": "https://search.google.com/local/writereview?placeid=ChIJgUC30cOHUhQRcLkl_XvuEA8",
   "048": "https://search.google.com/local/writereview?placeid=ChIJ-7L9tPqHUhQRoAbEG7Y6XNg",
-  "049": "https://search.google.com/local/writereview?placeid=ChIJ-7L9tPqHUhQRoAbEG7Y6XNg",
+  "049": "https://search.google.com/local/writereview?placeid=ChIJUf-6b9qHUhQRLUvz6zdY3wI",
   "050": "https://search.google.com/local/writereview?placeid=ChIJr-6Kix_hUxQRx7r-Dtrfzkc",
   "051": "",
   "052": "",
